@@ -10,7 +10,7 @@ repo: https://github.com/username/username.github.io
 # author settings
 
 author:
-  name: Place Holder
+  name: Yixuan Long
   email: ylong70@gatech.edu
 photo: /assets/jpg/photo.jpg
 
@@ -19,8 +19,8 @@ photo: /assets/jpg/photo.jpg
 social:
   github: https://github.com/Albertlong039
   instagram: https://www.instagram.com/albertlong363/
-  linkedin: 
-  twitter: username
+  linkedin: https://www.linkedin.com/in/yixuan-long-570977204/
+  twitter: https://twitter.com/AlbertL65716308
 
 # build settings
 
