@@ -1,8 +1,8 @@
 # site settings
 
 title: Yixuan Long
-taglong: Welcome to my personal website. I'm studying a master of Operations Research at Georgia Tech and actively seeking for a PhD position on the intersection of Operations Research and Healthcare! 
-tagshort: Jekyll theme
+taglong: Welcome to my personal website.
+tagshort: I'm studying a master of Operations Research at Georgia Tech and actively seeking for a PhD position on the intersection of Operations Research and Healthcare! 
 url: https://cvless.netlify.app
 baseurl: ""
 permalink: pretty
