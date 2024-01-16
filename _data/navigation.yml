@@ -1,7 +1,5 @@
 # main links links
 main:
-  - title: "Welcome!"
-    url: /markdown/
     
   - title: "CV"
     url: /cv/
