@@ -13,6 +13,7 @@ Education
 ======
 * B.Eng in Industrial Engineering, Sichuan University, 2019-2021
 * B.S.E in Industrial Engineering, University of Pittsburgh, 2021-2023
+  * Minors: Economics & Computer Science; Certificate: Engineering Data Analytics
 * M.S in Operations Research, Georgia Institute of Technology, 2023-2024(expected)
 
 Skills
