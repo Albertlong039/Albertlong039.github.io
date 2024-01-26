@@ -1,13 +1,13 @@
 ---
 permalink: /
-title: "academicpages is a ready-to-fork GitHub Pages template for academic personal websites"
+title: "Welcome to my personal website!"
 excerpt: "About me"
 author_profile: true
 redirect_from:
   - /about/
   - /about.html
 ---
-Welcome to my personal website!
+
 ======
 
 My name is Yixuan Long. I'm now studying a master of Operations Research at Georgia Tech and I am actively seeking a PhD position on the intersection of Operations Research and Healthcare!
