@@ -51,8 +51,8 @@ Work experience
 
 Teaching
 ======
-  2022.12-2023.04: Research Assistant, University of Pittsburgh IE Department
-  2022.01-2022.12: Grader, University of Pittsburgh Swanson School of Engineering
+* 2022.12-2023.04: Research Assistant, University of Pittsburgh IE Department
+* 2022.01-2022.12: Grader, University of Pittsburgh Swanson School of Engineering
 
 Service and leadership
 ======
