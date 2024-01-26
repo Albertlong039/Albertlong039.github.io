@@ -59,7 +59,7 @@ Teaching
 Service and leadership
 ======
 * 2020.08-2021.07: Leader, Sichuan University Pittsburgh Institute Debate Team
-* 2020.08 2021.07: Leader, Sichuan University Pittsburgh Institute Youth Volunteer Association
+* 2020.08-2021.07: Leader, Sichuan University Pittsburgh Institute Youth Volunteer Association
 
 Languages
 ======
