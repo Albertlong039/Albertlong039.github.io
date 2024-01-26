@@ -39,7 +39,7 @@ Research experience
   * Analyzed the rationality of the flow of medical treatment according to the flow of patient visits.
   * Analyzed and predict the length of stay of patients in the hospital based on annual admission data.
   * Combined qualitative analysis to give comprehensive discharge recommendations and optimize the efficiency of different hospital consults.
-  * Supervisor: Professor Caroline M Kolman(PITT), Audrey Alcorn(UPMC Shadyside)
+  * Supervisor: Professor Caroline Kolman(PITT), Audrey Alcorn(UPMC Shadyside)
 
 Work experience
 ======
