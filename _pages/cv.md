@@ -46,7 +46,7 @@ Research experience
 Work experience
 ======
 * Summer 2023: Research Internship
-  Guangzhou Automobile Group Research & Design Center
+  * Guangzhou Automobile Group Research & Design Center
   * Interfaced with data labeling company business, reorganized data format, monitored data quality, maintained the development platform, and assisted in model training tasks.
   * Optimized loss function in calibration to improve image recognition efficiency in automatic parking.
   * Participated in model vehicle road testing, collected, processed, and analyzed test data.
