@@ -8,8 +8,6 @@ redirect_from:
   - /about.html
 ---
 
-======
-
 My name is Yixuan Long. I'm now studying a master of Operations Research at Georgia Tech and I am actively seeking a PhD position on the intersection of Operations Research and Healthcare!
 
 I graduated from Sichuan University(B.Eng in Industrial Engineering, 2019-2021) and the University of Pittsburgh(B.S.E in Industrial Engineering, 2021-2023), with minors in Computer Science and Economics and a certificate in Engineering Data Analysis.
