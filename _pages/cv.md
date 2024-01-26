@@ -17,8 +17,8 @@ Education
 
 Skills
 ======
-* Programming : SQL, JAVA, Python R , Go
-* Software: MATLAB Octave, AMPL , Simio, SPSS SolidWorks, Ansys, PyTorch, TensorFlow
+* Programming : SQL, JAVA, Python, R , Go
+* Software: MATLAB, Octave, AMPL , Simio, SPSS, SolidWorks, Ansys, PyTorch, TensorFlow
 
 Research experience
 ======
