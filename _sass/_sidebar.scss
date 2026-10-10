@@ -235,3 +235,29 @@
     }
   }
 }
+
+/* Larger rectangular academic portrait and wider desktop profile column. */
+@media (min-width: 1024px) {
+  .sidebar {
+    width: 30%;
+  }
+  .sidebar .author__avatar {
+    width: 100%;
+  }
+  .sidebar .author__avatar img {
+    display: block;
+    width: 100%;
+    max-width: none;
+    height: auto;
+    padding: 0;
+    border: 0;
+    border-radius: 3px;
+  }
+  .sidebar .author__content,
+  .sidebar .author__urls-wrapper {
+    width: 100%;
+  }
+  #main .page {
+    width: 66%;
+  }
+}
