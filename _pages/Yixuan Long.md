@@ -16,3 +16,34 @@ As an industrial engineering student, I have been always thinking about how  ser
 
 Recent Projects
 ------
+
+<div class="feature__wrapper">
+  <div class="feature__item">
+    <div class="archive__item">
+      <h3 class="archive__item-title">Personalized Colorectal Cancer Screening and Decision Support</h3>
+      <p class="archive__item-excerpt">Purdue University · 2025–Present. Risk-stratified screening, natural-history microsimulation, cost-effectiveness analysis, and a Streamlit decision-support prototype for studying screening burden and patient preferences.</p>
+      <p><small>Methods: Microsimulation · Decision Analysis · Clinical Decision Support</small></p>
+    </div>
+  </div>
+  <div class="feature__item">
+    <div class="archive__item">
+      <h3 class="archive__item-title">Inventory Control with Reinforcement Learning</h3>
+      <p class="archive__item-excerpt">2026–Present. Exploring multi-echelon inventory policies with stochastic demand, holding and backlog costs, reinforcement learning, and mixed-integer optimization comparisons. Broader benchmarking is ongoing.</p>
+      <p><small>Methods: Inventory Optimization · Reinforcement Learning · MILP</small></p>
+    </div>
+  </div>
+  <div class="feature__item">
+    <div class="archive__item">
+      <h3 class="archive__item-title">Surgical Supply Inventory and Planning at Emory Hospital Midtown</h3>
+      <p class="archive__item-excerpt">Georgia Tech · 2024. Developed surgical-supply inventory heuristics, demand forecasting and purchase planning, warehouse storage and picking-route optimization, and an inventory management interface.</p>
+      <p><small>Methods: Supply Planning · Forecasting · Heuristics</small></p>
+    </div>
+  </div>
+  <div class="feature__item">
+    <div class="archive__item">
+      <h3 class="archive__item-title">Diabetes Screening, Treatment, and Cost-Effectiveness</h3>
+      <p class="archive__item-excerpt">Georgia Tech · 2023–2024. Modeled diabetes screening and intervention as sequential decisions, developed disease-progression simulation and resource-allocation models, and assessed diabetes-control strategies in India using ICER and sensitivity analysis.</p>
+      <p><small>Methods: MDP/CMDP · Microsimulation · Health Economics</small></p>
+    </div>
+  </div>
+</div>
