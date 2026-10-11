@@ -1,1 +1,38 @@
 
+name: Overleaf Connection Test
+
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  test-connection:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Verify Overleaf Git connection
+        env:
+          OVERLEAF_TOKEN: ${{ secrets.OVERLEAF_TOKEN }}
+        run: |
+          set -euo pipefail
+          test -n "$OVERLEAF_TOKEN" || {
+            echo "Missing OVERLEAF_TOKEN"
+            exit 1
+          }
+
+          git config --global \
+            credential.helper store
+
+          printf 'https://git:%s@git.overleaf.com\n' \
+            "$OVERLEAF_TOKEN" > ~/.git-credentials
+
+          chmod 600 ~/.git-credentials
+
+          git ls-remote \
+            https://git.overleaf.com/650dab8322fcf8db6cee62b2 \
+            HEAD
+
+          rm -f ~/.git-credentials
+          echo "Overleaf connection successful"
+
