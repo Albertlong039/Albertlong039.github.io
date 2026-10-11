@@ -9,6 +9,14 @@ redirect_from:
 
 {% include base_path %}
 
+<style>
+/* CV-only layout: prevent legacy oversized profile sidebar from overlapping text. */
+#main > .sidebar { display: none !important; }
+#main > .archive { float: none !important; width: 100% !important; max-width: 980px; margin: 0 auto !important; padding: 0 24px; box-sizing: border-box; }
+#main > .archive img { max-width: 100%; height: auto; }
+@media (max-width: 640px) { #main > .archive { padding: 0 16px; } }
+</style>
+
 Education
 ======
 * B.Eng in Industrial Engineering, Sichuan University, 2019-2021
