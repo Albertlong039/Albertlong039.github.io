@@ -1,57 +1,59 @@
-\documentclass[a4paper,10pt]{article}
-\usepackage[empty]{fullpage}
-\usepackage{titlesec}
-\usepackage[usenames,dvipsnames]{color}
+\documentclass[letterpaper,10pt]{article}
+\usepackage[margin=0.65in]{geometry}
+\usepackage[T1]{fontenc}
+\usepackage{lmodern}
 \usepackage{enumitem}
 \usepackage[hidelinks]{hyperref}
-\usepackage{fancyhdr}
-\pagestyle{fancy}\fancyhf{}\renewcommand{\headrulewidth}{0pt}
-\addtolength{\oddsidemargin}{-0.53in}
-\addtolength{\evensidemargin}{-0.375in}
-\addtolength{\textwidth}{1in}
-\addtolength{\topmargin}{-.45in}
-\addtolength{\textheight}{1in}
-\raggedright
-\titleformat{\section}{\vspace{-8pt}\scshape\raggedright\large}{}{0em}{}[\titlerule\vspace{-5pt}]
-\newcommand{\entry}[4]{\noindent\textbf{#1}\hfill #2\\\textit{#3}\hfill\textit{#4}\par\vspace{2pt}}
-\newcommand{\bulletitem}[1]{\item\small{#1}}
-\newenvironment{points}{\begin{itemize}[leftmargin=*,topsep=1pt,itemsep=1pt]}{\end{itemize}\vspace{-4pt}}
+\usepackage{titlesec}
+\pagestyle{empty}
+\setlength{\parindent}{0pt}
+\setlist[itemize]{leftmargin=1.2em,nosep,topsep=2pt}
+\titleformat{\section}{\bfseries\large}{}{0pt}{}[\titlerule]
+\titlespacing{\section}{0pt}{9pt}{4pt}
+\newcommand{\job}[3]{\textbf{#1}\hfill #2\\{\small #3}\par}
 \begin{document}
-\noindent{\LARGE\textbf{Yixuan Long}}\hfill \href{https://github.com/Albertlong039}{github.com/Albertlong039}\\
-\href{https://albertlong.io}{albertlong.io}\hfill West Lafayette, Indiana
+\begin{center}
+{\LARGE\bfseries Yixuan Long}\\
+West Lafayette, IN \quad | \quad \href{mailto:long635@purdue.edu}{long635@purdue.edu} \quad | \quad (412) 933-9514\\
+\href{https://albertlong.io}{albertlong.io} \quad | \quad \href{https://github.com/Albertlong039}{github.com/Albertlong039}
+\end{center}
 \section{Education}
-\entry{Purdue University}{West Lafayette, IN}{Ph.D. in Industrial Engineering}{2025 -- Present}
-\entry{Georgia Institute of Technology}{Atlanta, GA}{M.S. in Operations Research}{2023 -- 2024}
-\entry{University of Pittsburgh}{Pittsburgh, PA}{B.S. in Industrial Engineering; GPA: 3.736/4.0}{2021 -- 2023}
-\noindent\small Minors: Computer Science and Economics; Certificate: Engineering Data Analytics.
-
-\section{Professional Summary}
-\noindent\small Operations research researcher focused on stochastic inventory systems, simulation, optimization, and reinforcement learning for sequential decision-making.
-\section{Relevant Technical Skills}
-\noindent\small \textbf{Operations Research:} Mathematical programming, MILP, stochastic modeling, simulation, Markov decision processes, inventory control.\\
-\textbf{Machine Learning:} Reinforcement learning, PPO, DQN, SAC, PyTorch.\\
-\textbf{Programming:} Python, SQL, R, Java, MATLAB, AMPL.
-\section{Selected Projects}
-\entry{Inventory Control Benchmarking}{Research Project}{Stochastic Inventory Optimization and RL}{2026 -- Present}
-\begin{points}
-\bulletitem{Building inventory-control environments covering backorders, dual sourcing, positive lead times with lost sales, multi-echelon networks, shared capacity, and perishability.}
-\bulletitem{Implementing and evaluating rolling-horizon optimization, heuristic policies, and PPO/DQN/SAC reinforcement learning baselines.}
-\bulletitem{Developing reproducible comparisons across demand scenarios, service and cost metrics, and computational budgets.}
-\end{points}
-\entry{Hospital Discharge Process Optimization}{University of Pittsburgh / UPMC}{Industrial Engineering Senior Design}{2023}
-\begin{points}
-\bulletitem{Analyzed hospital patient flow and length-of-stay data to identify opportunities for discharge-process improvements.}
-\bulletitem{Combined quantitative analysis and process evaluation to develop operational recommendations.}
-\end{points}
-\entry{Dynamic Network Clustering}{Chinese University of Hong Kong}{Algorithm Evaluation Project}{2022}
-\begin{points}
-\bulletitem{Reproduced dynamic graph clustering methods in Java and built Python visualizations.}
-\bulletitem{Compared methods using NMI, precision, recall, F1, and purity.}
-\end{points}
-\entry{Complex Contagion Simulation}{University of Pittsburgh}{Network Simulation Research}{2021 -- 2023}
-\begin{points}
-\bulletitem{Built Python simulations of network diffusion and analyzed trade-offs in influence-maximization strategies.}
-\end{points}
+\job{Purdue University}{Aug 2025 -- May 2030 (expected)}{Ph.D., Industrial Engineering; Advisor: Prof. Nan Kong}
+\job{Georgia Institute of Technology}{Aug 2023 -- Dec 2024}{M.S., Operations Research; GPA: 3.54/4.0}
+\job{University of Pittsburgh}{Aug 2021 -- Apr 2023}{B.S., Industrial Engineering; GPA: 3.736/4.0; minors in Computer Science and Economics; Certificate in Engineering Data Analytics}
+\job{Sichuan University}{Sep 2019 -- Jun 2021}{Undergraduate studies, Industrial Engineering; GPA: 3.56/4.0}
+\section{Technical Skills}
+Python, SQL, R, Java, C, Go; AMPL, Simio, MATLAB, PyTorch, TensorFlow; optimization, simulation, inventory control.
+\section{Supply Chain and Operations Projects}
+\job{Emory Hospital Midtown: Inventory and Supply Planning}{Jan -- Dec 2024}{Georgia Tech; Supervisors: Prof. Dima Nazzal and Prof. Pinar Keskinocak}
+\begin{itemize}
+\item Built surgical-supply inventory heuristics balancing holding costs and service levels.
+\item Forecasted demand and aligned purchase plans with dynamic surgery schedules.
+\item Optimized storage assignments and picking routes; built an interface for real-time inventory management.
+\end{itemize}
+\job{Multi-Echelon Inventory Control with Reinforcement Learning}{2026 -- Present}{Exploratory research; retailer--wholesaler inventory}
+\begin{itemize}
+\item Modeled a 10-period inventory system with simulated demand, holding, backlog, and ordering costs.
+\item Prototyped RL policies and a scenario-based mixed-integer comparison model.
+\item Assessed costs and service levels across 100 demand scenarios; broader evaluation remains ongoing.
+\end{itemize}
+\job{UPMC Hospital Discharge Optimization}{Jan -- Apr 2023}{Senior design; Prof. Caroline M. Kolman and Audrey Alcorn}
+\begin{itemize}
+\item Analyzed patient flow, predicted length of stay from admissions data, and recommended discharge and consultation plans.
+\end{itemize}
+\section{Additional Technical Projects}
+\job{Quadratic Programming for Electrical Resource Allocation}{Jan -- Apr 2024}{Georgia Tech; course group project}
+\begin{itemize}
+\item Built a Quartic Minimizer for quadratic programming, ported it to CUDA, and applied it to EV generator--battery power allocation.
+\end{itemize}
+\job{Australian Weather Forecasting}{Aug -- Dec 2023}{Georgia Tech; machine learning course project}
+\begin{itemize}
+\item Cleaned and encoded weather data; built Ridge, SVM, MLP, Random Forest, LSTM, and VAR forecasting models.
+\end{itemize}
 \section{Additional Research}
-\noindent\small Developing sequential decision models and microsimulation for personalized colorectal cancer screening at Purdue University.
+Colorectal cancer screening simulation and decision support (Purdue University); diabetes control strategy simulation and cost-effectiveness analysis (Georgia Tech).
+\section{Publication}
+Kocher E. L., Abdeen A. A., Long Y., et al. (2025). 1056-P: Cost-Effectiveness of the WHO Diabetes Compact Targets for Diabetes Control in India---A Microsimulation Modelling Study. \textit{Diabetes}, 74(Supplement 1), 1056-P. Conference abstract. DOI: 10.2337/db25-1056-P.
+\section{Additional Experience}
+Graduate Teaching Assistant, IE 230, Purdue University (Fall 2026); Graduate Research Assistant, Purdue University (2025--Present); Graduate Research Assistant, Georgia Tech (2023--2024); Research Assistant and Grader, University of Pittsburgh (2022--2023).
 \end{document}
