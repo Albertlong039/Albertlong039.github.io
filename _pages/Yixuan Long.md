@@ -17,33 +17,44 @@ As an industrial engineering student, I have been always thinking about how  ser
 Recent Projects
 ------
 
-<div class="feature__wrapper">
-  <div class="feature__item">
-    <div class="archive__item">
-      <h3 class="archive__item-title">Personalized Colorectal Cancer Screening and Decision Support</h3>
-      <p class="archive__item-excerpt">Purdue University · 2025–Present. Risk-stratified screening, natural-history microsimulation, cost-effectiveness analysis, and a Streamlit decision-support prototype for studying screening burden and patient preferences.</p>
+<div class="recent-projects-list">
+  <div class="recent-project-row">
+    <div class="recent-project-content">
+      <h3 class="recent-project-title">Personalized Colorectal Cancer Screening and Decision Support</h3>
+      <p class="recent-project-description">Purdue University · 2025–Present. Risk-stratified screening, natural-history microsimulation, cost-effectiveness analysis, and a Streamlit decision-support prototype for studying screening burden and patient preferences.</p>
       <p><small>Methods: Microsimulation · Decision Analysis · Clinical Decision Support</small></p>
     </div>
   </div>
-  <div class="feature__item">
-    <div class="archive__item">
-      <h3 class="archive__item-title">Inventory Control with Reinforcement Learning</h3>
-      <p class="archive__item-excerpt">2026–Present. Exploring multi-echelon inventory policies with stochastic demand, holding and backlog costs, reinforcement learning, and mixed-integer optimization comparisons. Broader benchmarking is ongoing.</p>
+  <div class="recent-project-row">
+    <div class="recent-project-content">
+      <h3 class="recent-project-title">Inventory Control with Reinforcement Learning</h3>
+      <p class="recent-project-description">2026–Present. Exploring multi-echelon inventory policies with stochastic demand, holding and backlog costs, reinforcement learning, and mixed-integer optimization comparisons. Broader benchmarking is ongoing.</p>
       <p><small>Methods: Inventory Optimization · Reinforcement Learning · MILP</small></p>
     </div>
   </div>
-  <div class="feature__item">
-    <div class="archive__item">
-      <h3 class="archive__item-title">Surgical Supply Inventory and Planning at Emory Hospital Midtown</h3>
-      <p class="archive__item-excerpt">Georgia Tech · 2024. Developed surgical-supply inventory heuristics, demand forecasting and purchase planning, warehouse storage and picking-route optimization, and an inventory management interface.</p>
+  <div class="recent-project-row">
+    <div class="recent-project-content">
+      <h3 class="recent-project-title">Surgical Supply Inventory and Planning at Emory Hospital Midtown</h3>
+      <p class="recent-project-description">Georgia Tech · 2024. Developed surgical-supply inventory heuristics, demand forecasting and purchase planning, warehouse storage and picking-route optimization, and an inventory management interface.</p>
       <p><small>Methods: Supply Planning · Forecasting · Heuristics</small></p>
     </div>
   </div>
-  <div class="feature__item">
-    <div class="archive__item">
-      <h3 class="archive__item-title">Diabetes Screening, Treatment, and Cost-Effectiveness</h3>
-      <p class="archive__item-excerpt">Georgia Tech · 2023–2024. Modeled diabetes screening and intervention as sequential decisions, developed disease-progression simulation and resource-allocation models, and assessed diabetes-control strategies in India using ICER and sensitivity analysis.</p>
+  <div class="recent-project-row">
+    <div class="recent-project-content">
+      <h3 class="recent-project-title">Diabetes Screening, Treatment, and Cost-Effectiveness</h3>
+      <p class="recent-project-description">Georgia Tech · 2023–2024. Modeled diabetes screening and intervention as sequential decisions, developed disease-progression simulation and resource-allocation models, and assessed diabetes-control strategies in India using ICER and sensitivity analysis.</p>
       <p><small>Methods: MDP/CMDP · Microsimulation · Health Economics</small></p>
     </div>
   </div>
 </div>
+
+<style>
+/* Full-width, one-project-per-row layout; scoped to the homepage project list. */
+.recent-projects-list { display: block; width: 100%; clear: both; }
+.recent-projects-list .recent-project-row { display: block; width: 100%; float: none; clear: both; box-sizing: border-box; padding: 18px 0; border-bottom: 1px solid #e7e7e7; }
+.recent-projects-list .recent-project-row:first-child { padding-top: 4px; }
+.recent-projects-list .recent-project-content { width: 100%; float: none; margin: 0; }
+.recent-projects-list .recent-project-title { margin: 0 0 6px; font-size: 1.1em; line-height: 1.35; }
+.recent-projects-list .recent-project-description { margin: 0 0 6px; line-height: 1.6; }
+.recent-projects-list .recent-project-row p:last-child { margin-bottom: 0; color: #666; }
+</style>
